@@ -4,4 +4,9 @@ export const globalStyles = {
     fontSize: "16px",
     lineHeight: "17px",
   },
+  baseText: {
+    fontWeight: 400,
+    fontSize: "16px",
+    lineHeight: "18px",
+  },
 };

@@ -13,11 +13,11 @@ const UserPost: React.FC = ({
   return (
     <article style={styles.postWrapper}>
       <div style={styles.postBanner}></div>
-      <header>
+      <header style={styles.postHeader}>
         <h3 style={globalStyles.baseTitle}>{postTitle}</h3>
       </header>
-      <section>
-        <p>
+      <section style={styles.postContent}>
+        <p style={globalStyles.baseText}>
           {postContent.length < maxLength
             ? postContent
             : `${postContent?.slice(0, maxLength)}... `}

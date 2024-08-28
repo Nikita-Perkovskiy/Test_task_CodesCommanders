@@ -18,4 +18,10 @@ export const styles = {
     height: "100px",
     backgroundColor: `${darkGray}`,
   },
+  postHeader: {
+    marginTop: "10px",
+  },
+  postContent: {
+    marginTop: "20px",
+  },
 };
